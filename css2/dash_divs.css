@@ -1,0 +1,71 @@
+button {
+  display: block;
+  border-style: ridge;
+  border-color: gray;
+  padding: 14px 18px;
+  cursor: pointer;
+  height:60px;
+  width:5vw;
+}
+
+#map {
+            width: 100%;
+            height: 80vh;
+        }
+     button:hover{
+         background-color: lightblue;
+         border:none;
+}
+.bdemog{
+  background: url(imagen/demo.png) center;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  position:absolute;
+  left:83vw;
+  top:84vh;
+}
+.covid{
+  background: url(imagen/covid.png) center;
+  background-repeat: no-repeat;
+  background-color: lightgray;
+  position:absolute;
+  left:88vw;
+  top:84vh;
+}
+#po-pib {
+    top:71vh;
+    left:0px;
+    position:absolute;
+    width:33vw;
+    height:35vh;
+}
+#poy {
+    top:71vh;
+    left:33vw;
+    position:absolute;
+    width:20vw;
+    height:35vh;
+}
+#idh {
+    top:71vh;
+    left:54vw;
+    position:absolute;
+    width:20vw;
+    height:35vh;
+}
+#ca_covid {
+    top:0vh;
+    left:56vw;
+    position:absolute;
+    width:23vw;
+    height:40vh;
+}
+#d_covid {
+    top:39vh;
+    left:56vw;
+    position:absolute;
+    width:23vw;
+    height:40vh;
+}
+
+
